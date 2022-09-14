@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace deliverable_3
 {
@@ -11,7 +11,7 @@ namespace deliverable_3
                 Console.WriteLine("Enter an integer between 1 and 100.");
                 int input = int.Parse(Console.ReadLine());
 
-                if ((input >= 0) && (input <= 100))
+                if ((input > 0) && (input <= 100))
                 {
                     Console.WriteLine("Do you want to see the even or odd numbers in this range?");
                     String series_name = Console.ReadLine();
@@ -61,7 +61,7 @@ namespace deliverable_3
                 }
                 else 
                 {
-                    Console.WriteLine("You entered an integer higher than 100. Please try again.");
+                    Console.WriteLine("You entered an integer higher than 100 or you entered 0. Please try again.");
                     Console.WriteLine("Press any key to exit the program");
                     Console.ReadKey(true);
 
