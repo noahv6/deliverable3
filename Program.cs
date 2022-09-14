@@ -8,7 +8,7 @@ namespace deliverable_3
         {
             try
             {
-                Console.WriteLine("Enter an integer between 0 and 100.");
+                Console.WriteLine("Enter an integer between 1 and 100.");
                 int input = int.Parse(Console.ReadLine());
 
                 if ((input >= 0) && (input <= 100))
